@@ -11,3 +11,4 @@ Established Java Servlets to handle http requests and responses
 * DataBases: MySQL/MongoDB(for better scaling)
 * HTTP web server environment: Apache Tomcat v9.0
 
+####  deployment option:AWS - Amazon EC2
