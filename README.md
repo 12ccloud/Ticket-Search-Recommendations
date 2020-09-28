@@ -45,3 +45,8 @@ The benefits of using REST includes:
 - Content-based recommendation algorithm was used. 
   - The principle is to recommend items to clients with similar attributes of item, it based on the item's specific characteristic itself. (Such as price, category, size, etc.)
   - For this program, there is not enough information or users' performance / records to be ready to analyze, a cold-start need to be considered. So content-based algorithm is a reasonable option.
+ 
+- User - based recommendation algorithm is on-going. 
+  - step1: Caluclate the similarity between each two users based on their behaviors on items.
+  - step2: Calculate current user's interest (weighted value) on each item that has not been favorited by this user.
+  - step3: Recommend top K items that are most likely to be liked by this user.
